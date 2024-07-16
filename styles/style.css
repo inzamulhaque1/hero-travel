@@ -1,5 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    
+
 }
+/* NAV START HERE */
+nav{
+    font-family: "Mulish", sans-serif;
+    display: flex;
+    width: 1200px;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+nav h1{
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.pages{
+    display: flex;
+    align-items: center;
+}
+.pages>a>p{
+    margin-left: 25px;
+}
+.pages>a{
+    text-decoration: none;
+    color: rgb(66, 66, 71);
+    font-size: 1.125rem;
+}
+/* banner start here */
+.banner{
+    width: 1200px;
+    margin: 50px auto;
+    height: 500px;
+    background-image:linear-gradient( 180deg,rgba(19, 19, 24, 0.8)0%, rgba(19, 19, 24, 0) 100%), url("../Images/mainbanner.png");
+    background-repeat: repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: "Mulish", sans-serif;
+}
+.text-section h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.text-section p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.input-section{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 800px;
+    margin: 40px auto;
+    padding: 16px;
+    border-radius: 8px;
+}
+.input-section input{
+    height: 52px;
+    width: 174px;
+    border-radius: 8px;
+    border: none;
+    padding-left:15px ;
+    color: rgba(19, 19, 24, 0.5);
+    margin-left: 16px;
+}
+.options{
+    height: 52px;
+    width: 174px;
+    border-radius: 8px;
+    border: none;
+    padding-left:15px ;
+    color: rgba(19, 19, 24, 0.5);
+    margin-left: 16px;
+}
+.btn-find-now{
+    height: 52px;
+    width: 174px;
+    border-radius: 8px;
+    background-color: rgb(255, 84, 0);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 16px;
+}
+.btn-find-now i{
+    padding-right: 8px;
+}
+/* Popular start here */
