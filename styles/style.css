@@ -144,3 +144,100 @@ nav h1{
     font-weight: 800;
     margin-top: 32px;
 }
+/* Destination section start here */
+.destination{
+    width: 1200px;
+    margin: 0 auto;
+}
+.destination img{
+    width: 100%;
+    height: 300px;
+    filter: brightness(70%);
+}
+.destination-text{
+    margin-top: 100px;
+    text-align: center; 
+}
+.destination-text h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: rgb(19, 19, 24);
+}
+.destination-text p{
+    color: rgba(19, 19, 24, 0.7);
+    margin-top: 24px;
+}
+.row-1{
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.country-card{
+    position: relative;
+}
+.country-card p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+.row-2{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1.20fr 0.80fr;
+    gap: 1rem;
+}
+.row-3{
+    display: grid;
+    grid-template-columns:0.80fr 1.20fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+/* Why Choose Us start here */
+.choose{
+    width: 1200px;
+    margin: 0 auto;
+}
+.card-hotel{
+    padding: 32px;
+    background-color: rgba(251, 181, 99, 0.05);
+    border: 1px	solid rgba(251, 181, 99, 0.2);
+    border-radius: 1rem;
+
+}
+.card-hotel img{
+    height: 64px;
+    width: 64px;
+}
+.card-hotel h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: rgb(19, 19, 24);
+    margin-top: 32px;
+}
+.card-hotel p{
+    color: rgba(19, 19, 24, 0.7);
+    margin-top: 24px;
+}
+.card-hotel-service{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.card-service{
+    background-color: rgba(41, 206, 246, 0.05);
+    border: 1px	solid rgba(41, 206, 246, 0.2);
+}
+.price-box{
+    width: 573px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.price{
+    background-color: rgba(233, 68, 68, 0.05);
+    border: 1px	solid rgba(233, 68, 68, 0.2);
+}
