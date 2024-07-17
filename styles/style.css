@@ -241,3 +241,61 @@ nav h1{
     background-color: rgba(233, 68, 68, 0.05);
     border: 1px	solid rgba(233, 68, 68, 0.2);
 }
+/* Deals & Discounts */
+.deals{
+    width: 1170px;
+    margin: 0 auto;
+}
+.deals-card-1{
+    background-image: url("../Images/bg1.png");
+    background-repeat: repeat;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    border-radius: 1rem;
+    margin-top: 48px;
+}
+.deals-icons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 15px;
+}
+.deals-icons-p{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    gap: 10px;
+}
+.deals-contet{
+    margin: 56px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    border: 2px solid rgb(255, 255, 255);
+}
+.deals-texts h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: rgb(19, 19, 24);
+    margin-top: 16px;
+}
+.deals-texts p{
+    color: rgba(19, 19, 24, 0.7);
+    margin-top: 16px;
+}
+.price-usd{
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    color: rgb(255, 84, 0);
+    margin-bottom: 24px;
+}
+.price-btn{
+    margin-left: 0;
+}
+.deals-card-2{
+    grid-template-columns: 1.15fr 0.85fr;
+    background-image: url("../Images/bg2.png");
+}
